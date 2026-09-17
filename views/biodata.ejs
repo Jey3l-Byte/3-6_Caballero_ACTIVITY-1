@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Output</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Biodata Information</h1>
+
+            <h2>Personal Information</h2>
+            <p><strong>First Name:</strong> <%= biodata.fn %></p>
+            <p><strong>Last Name:</strong> <%= biodata.ln %></p>
+            <p><strong>Age:</strong> <%= biodata.age %></p>
+            <p><strong>Gender:</strong> <%= biodata.gender %></p>
+            <p><strong>Birthday:</strong> <%= biodata.birthday %></p>
+            <p><strong>Address:</strong> <%= biodata.address %></p>
+            <p><strong>Civil Status:</strong> <%= biodata.civilStatus %></p>
+            <p><strong>Contact Number:</strong> <%= biodata.contactnumber %></p>
+
+            <h2>Education</h2>
+            <p><strong>Elementary School:</strong> <%= biodata.elementaryschool %></p>
+            <p><strong>High School:</strong> <%= biodata.highschool %></p>
+            <p><strong>College / University:</strong> <%= biodata.college %></p>
+            <p><strong>Course:</strong> <%= biodata.course %></p>
+            <p><strong>Year Level:</strong> <%= biodata.yearlevel %></p>
+
+            <h2>Family Background</h2>
+            <p><strong>Father's Name:</strong> <%= biodata.father %></p>
+            <p><strong>Mother's Name:</strong> <%= biodata.mother %></p>
+            <p><strong>Number of Siblings:</strong> <%= biodata.siblings %></p>
+
+            <h2>Other Information</h2>
+            <p><strong>Hobbies:</strong> <%= biodata.hobbies %></p>
+            <p><strong>Skills:</strong> <%= biodata.skills %></p>
+
+            <a href="/">Back to Form</a>
+        </div>
+    </div>
+</body>
+</html>

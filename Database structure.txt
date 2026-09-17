@@ -1,0 +1,53 @@
+Database Structure for biodata app
+
+Database name: Cabs_db
+
+Table name: biodataform
+
+Columns:
+1. id - INT AUTO_INCREMENT PRIMARY KEY
+2. fn - VARCHAR(255)
+3. ln - VARCHAR(255)
+4. age - VARCHAR(50)
+5. gender - VARCHAR(50)
+6. birthday - VARCHAR(50)
+7. address - VARCHAR(255)
+8. civilStatus - VARCHAR(50)
+9. contactnumber - VARCHAR(50)
+10. elementaryschool - VARCHAR(255)
+11. highschool - VARCHAR(255)
+12. college - VARCHAR(255)
+13. course - VARCHAR(255)
+14. yearlevel - VARCHAR(50)
+15. father - VARCHAR(255)
+16. mother - VARCHAR(255)
+17. siblings - VARCHAR(50)
+18. hobbies - VARCHAR(255)
+19. skills - VARCHAR(255)
+
+SQL create statement:
+
+CREATE DATABASE Cabs_db;
+USE Cabs_db;
+
+CREATE TABLE biodataform (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fn VARCHAR(255),
+    ln VARCHAR(255),
+    age VARCHAR(50),
+    gender VARCHAR(50),
+    birthday VARCHAR(50),
+    address VARCHAR(255),
+    civilStatus VARCHAR(50),
+    contactnumber VARCHAR(50),
+    elementaryschool VARCHAR(255),
+    highschool VARCHAR(255),
+    college VARCHAR(255),
+    course VARCHAR(255),
+    yearlevel VARCHAR(50),
+    father VARCHAR(255),
+    mother VARCHAR(255),
+    siblings VARCHAR(50),
+    hobbies VARCHAR(255),
+    skills VARCHAR(255)
+);
